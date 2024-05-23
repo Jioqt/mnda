@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Warung Makan SG </title>
+    <link rel="stylesheet" type="text/css" href="css1.css">
+    <style>
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: goldenrod;
+}
+
+header {
+    background-color: #bfc13a;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #d7ea08;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: rgb(235, 73, 41);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #c8e21c;
+    padding: 20px;
+    text-align: center;
+}
+
+#concerts ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#concerts li {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#concerts .concert-info {
+    flex: 1;
+    padding-right: 20px;
+}
+
+#concerts .concert-image {
+    flex: 1;
+}
+
+#concerts h3 {
+    margin: 0;
+    font-size: 20px;
+    color: #0d0747;
+}
+
+#concerts p {
+    margin: 5px 0;
+    color: #080808;
+}
+
+#concerts img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.concert-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .concert-item {
+    background-color: #f17e1f;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .concert-item img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .concert-item h3 {
+    margin-top: 0;
+  }
+  
+  .concert-item p {
+    margin-bottom: 10px;
+  }
+
+      .member {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .member-card {
+        width: 200px;
+        margin: 10px;
+        padding: 10px;
+        text-align: center;
+        border: 1px solid #d7851a;
+        border-radius: 5px;
+      }
+      .member-name {
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+      .member-photo {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 10px;
+      }
+    </style>
+  
+</head>
+<body>
+    <header>
+        <h1>warung Makan SG Sambal Gila</h1>
+        
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#tentang kami">tentang kami</a></li>
+            <li><a href="#menu">menu</a></li>
+            <li><a href="#layanan tersedia">layanan tersedia</a></li>
+        </ul>
+    </nav>
+        <p>Warung SG
+          Warung SG atau yang di kenal Warung Makan Sambal Gila oleh masyarakat, warung makan ini sudah berdiri sejak belasan tahun yang lalu 
+          sejak awal buka, warung ini sudah mengeluarkan banyak menu baik makanan maupun minuman, harga yang dipasang pun sangat terjaungkau
+           
+        </p>
+    </section>
+        <section id="concerts">
+          <section id="menu">
+        <h3><center>menu warung SG</center></h3>
+        <div class="member">
+            <div class="member-card">
+              <img class="member-photo" src="nasi campur.jpeg" alt="Nasi Campur">
+              <div class="member-name">Nasi Campur</div>
+              <div>20.000</div>
+            </div>
+            <div class="member-card">
+              <img class="member-photo" src="paket jumbo geprek.jpg" alt="paket jumbo geprek">
+              <div class="member-name">paket ayam geprek jumbo</div>
+              <div>20.000</div>
+            </div>
+            <div class="member-card">
+              <img class="member-photo" src="paket jumbo lalapan.jpg" alt="paket lalapan jumbo">
+              <div class="member-name">paket ayam lalapan jumbo</div>
+              <div>20.000</div>
+            </div>
+            <div class="member-card">
+              <img class="member-photo" src="paket geprek hemat.jpg" alt="paket geprek hemat">
+              <div class="member-name">paket ayam geprek hemat</div>
+              <div>15.000</div>
+            </div>
+            <div class="member-card">
+              <img class="member-photo" src="paket gila lalapan.jpg" alt="paket gila lalapan">
+              <div class="member-name">paket Gila ayam lalapan</div>
+              <div>15.000</div>
+            </div>
+            <div class="member-card">
+              <img class="member-photo" src="tempe geprek.jpg" alt="tempe tahu geprek">
+              <div class="member-name">tempe tahu geprek</div>
+              <div>5.000/porsi</div>
+            </div>
+            <div class="member-card">
+              <img class="member-photo" src="tahu tempe lalapan.jpg" alt="tahu tempe lalapan">
+              <div class="member-name">tahu tempe lalapan</div>
+              <div>5.000/porsi</div>
+            </div>
+            <div class="member-card">
+                <img class="member-photo" src="plecing kangkung.jpg" alt="plecing kangkung">
+                <div class="member-name">plecing kangkung</div>
+                <div>5.000/porsi</div>
+              </div>
+              <div class="member-card">
+                <img class="member-photo" src="kremes.jpg" alt="kremes">
+                <div class="member-name">tahu tempe lalapan</div>
+                <div>5.000/porsi</div>
+              </div>
+          </div>
+          </section>
+    </section>
+    
+        </p>
+
+        <section id="layanan tersedia">
+        <div class="concert-list">
+          <div class="concert-item">
+            <img src="nasi kotak nasi campur.jpg" alt="Nasi Kotak">
+            <h3>Nasi Campur</h3>
+            <p>Nasi Kotak mulai dari 15.000</p>
+            <p></p>
+          </div>
+          <div class="concert-item">
+            <img src="pesanan nasi kotak nasi kotsk lalapan.jpg" alt="nasi kotak ayam lalapan">
+            <h3>Nasi Kotak Ayam Lalapan</h3>
+            <p>mulai dari 15.000</p>
+          </div>
+          <div class="concert-item">
+            <img src="pesanan mix.jpg" alt="pesanan mix">
+            <h3>Menu Paket Nasi Kotak Hemat</h3>
+            <p>harga mulai dari 10.000</p>
+          </div>
+        </div>
+        
+    </section>
+    <footer>
+       <center><p>&copy; 2024 K-Pop Community. All rights reserved.</p></center>
+    </footer>
+</body>
+</html>
+
